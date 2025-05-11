@@ -93,12 +93,11 @@ If this value is true, then the SMTP server requires that email be downloaded be
 
 <Protocol>
   <Type>SMTP</Type>
-  <TTL>%TTL%</TTL>
-  <Server>%SERVER/SMTP/HOST%</Server>
-  <Port>%SERVER/SMTP/PORT%</Port>
-  <DomainRequired>%SERVER/SMTP/DOMAIN_REQUIRED%</DomainRequired>
+  <TTL>1</TTL>
+  <Server>send.xtra.co.nz</Server>
+  <Port>587</Port>
   <SPA>off</SPA>
-  <SSL>%SERVER/SMTP/SSL_ON%</SSL>
+  <SSL>on</SSL>
   <AuthRequired>on</AuthRequired>
   <UsePOPAuth>on</UsePOPAuth>
   <SMTPLast>off</SMTPLast>
